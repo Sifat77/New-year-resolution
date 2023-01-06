@@ -3,9 +3,16 @@
     font-family: 'Work Sans';
 }
 .container{
-   
-    
-    margin: 92px 182px;
+   margin: 92px 182px;
+}
+.btn-primary{
+    padding: 20px 30px;
+    color: orange;
+    font-size: 16px;
+    font-weight: 800;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
 }
 /* banner style */
 .banner{
@@ -65,7 +72,71 @@
 .plan{
     display: flex;
     justify-content: center;
+    
 }
 .plan-item{
-   
+   padding: 20px 80px;
+   align-items: center;
+}
+.plan-item img{
+    height: 60px;
+    margin-left: 30px;
+}
+.plan-title{
+    font-size: 18px;
+    font-weight: 900;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: sans-serif;
+    
+}
+.plan-description{
+
+}
+/* mindset style */
+.mindset{
+    background: rgb(219,58,18);
+    background: linear-gradient(90deg, rgba(219,58,18,1) 0%, rgba(191,141,141,1) 100%, rgba(242,159,159,1) 100%);
+    height: 238px;
+    margin: 90px 0;
+    
+}
+.mindset-description{
+    padding: 52px 0 0 52px;
+}
+.mindset-title{
+    margin-bottom: 15px;
+}
+
+/* footer style */
+.footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    
+}
+.footer-form{
+    padding: 111px 80px 50px 427px;
+}
+.footer-intro{
+    padding: 107px 0 90px 170px;
+}
+.footer-form input[type="email"]{
+    padding: 15px 40px 15px 20px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-top: 24px;
+    margin-bottom: 10px;
+
+}
+.footer-description , .footer-number{
+    margin: 20px 0;
+}
+.footer.img{
+    height: 15px;
+}
+.img2{
+    margin: 0 5px;
 }
